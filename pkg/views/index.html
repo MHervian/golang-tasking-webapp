@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Halaman Penugasan Karyawan</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css" 
+        integrity="sha512-Ez0cGzNzHR1tYAv56860NLspgUGuQw16GiOOp/I2LuTmpSK9xDXlgJz3XN4cnpXWDmkNBKXR/VDMTCnAaEooxA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <nav class="mb-4 px-3 border-bottom">
+            <h1>Aplikasi Penugasan</h1>
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/form">Buat Tugas</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tentang</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container">
+            <div class="table-responsive">
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Tugas</th>
+                            <th>Tgl Deadline</th>
+                            <th>Status Progress</th>
+                            <th>Aksi</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Memasak Ikan</td>
+                            <td>17 Agustus 2022</td>
+                            <td><span class="rounded-pill bg-warning px-3 py-2">In Progress</span></td>
+                            <td>
+                                <a href="/task/id" class="btn btn-secondary">Detail</a>
+                                <a href="/task/edit/id" class="btn btn-primary">Ubah</a>
+                                <a href="#" class="btn btn-danger">Hapus</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Memasak Ikan</td>
+                            <td>17 Agustus 2022</td>
+                            <td><span class="rounded-pill bg-warning px-3 py-2">In Progress</span></td>
+                            <td>
+                                <a href="#" class="btn btn-secondary">Detail</a>
+                                <a href="#" class="btn btn-primary">Ubah</a>
+                                <a href="#" class="btn btn-danger">Hapus</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Memasak Ikan</td>
+                            <td>17 Agustus 2022</td>
+                            <td><span class="rounded-pill bg-success px-3 py-2 text-white">Done</span></td>
+                            <td>
+                                <a href="#" class="btn btn-secondary">Detail</a>
+                                <a href="#" class="btn btn-primary">Ubah</a>
+                                <a href="#" class="btn btn-danger">Hapus</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </body>
+</html>
